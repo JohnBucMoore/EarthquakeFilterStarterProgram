@@ -16,4 +16,11 @@ public class MatchAllFilter implements Filter{
         }
         return true;
     }
+    public String getName() {
+        StringBuilder s = new StringBuilder();
+        for (Filter filter : filters) {
+            s.append(filter.getName()+"\n");
+        }
+        return s.toString();
+    }
 }

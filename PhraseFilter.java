@@ -1,9 +1,11 @@
 public class PhraseFilter implements Filter{
     private String where;
     private String phrase;
-    public PhraseFilter(String w, String p) {
+    private String name;
+    public PhraseFilter(String w, String p, String n) {
         where = w;
         phrase = p;
+        name = n;
     }
     public boolean satisfies(QuakeEntry qe) {
         String title = qe.getInfo();
@@ -16,5 +18,8 @@ public class PhraseFilter implements Filter{
         } else {
             return false;
         }
+    }
+    public String getName() {
+        return name;
     }
 }
