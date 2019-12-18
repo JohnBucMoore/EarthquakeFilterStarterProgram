@@ -1,4 +1,4 @@
-public class DistanceFilter {
+public class DistanceFilter implements Filter{
     private Location loc;
     private double maxDist;
     public DistanceFilter(Location l, double dist) {
@@ -6,6 +6,7 @@ public class DistanceFilter {
         maxDist = dist;
     }
     public boolean satisfies(QuakeEntry qe) {
+        System.out.println();
         return (qe.getLocation().distanceTo(loc) < maxDist);
     }
 }

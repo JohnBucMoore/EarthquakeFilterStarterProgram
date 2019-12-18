@@ -1,4 +1,4 @@
-public class PhraseFilter {
+public class PhraseFilter implements Filter{
     private String where;
     private String phrase;
     public PhraseFilter(String w, String p) {

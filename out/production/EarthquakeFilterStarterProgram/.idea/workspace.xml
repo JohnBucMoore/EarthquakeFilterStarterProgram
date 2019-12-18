@@ -1,13 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c993d643-c1a8-4e79-9c64-14d2b416332d" name="Default Changelist" comment="" />
+    <list default="true" id="c993d643-c1a8-4e79-9c64-14d2b416332d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/EarthQuakeClient2.java" beforeDir="false" afterPath="$PROJECT_DIR$/EarthQuakeClient2.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
   <component name="ProjectId" id="1VAPKB2nlbQMDFdPTeaQRITW5Hh" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -17,11 +37,24 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.EarthQuakeClient2">
+    <configuration name="EarthQuakeClient2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="EarthQuakeClient2" />
+      <module name="EarthquakeFilterStarterProgram" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="EarthQuakeParser" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="EarthQuakeParser" />
       <module name="EarthquakeFilterStarterProgram" />
@@ -31,6 +64,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.EarthQuakeClient2" />
         <item itemvalue="Application.EarthQuakeParser" />
       </list>
     </recent_temporary>
@@ -57,14 +91,83 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1576692859077</updated>
-      <workItem from="1576692860967" duration="284000" />
+      <workItem from="1576692860967" duration="4958000" />
     </task>
+    <task id="LOCAL-00001" summary="add MagnitudeFilter class">
+      <created>1576697616126</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1576697616126</updated>
+    </task>
+    <task id="LOCAL-00002" summary="add DepthFilter class">
+      <created>1576697659306</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1576697659306</updated>
+    </task>
+    <task id="LOCAL-00003" summary="add DistanceFilter class">
+      <created>1576697685574</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1576697685574</updated>
+    </task>
+    <task id="LOCAL-00004" summary="add PhraseFilter class">
+      <created>1576698316509</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1576698316509</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="initial commit" />
+    <MESSAGE value="add MagnitudeFilter class" />
+    <MESSAGE value="add DepthFilter class" />
+    <MESSAGE value="add DistanceFilter class" />
+    <MESSAGE value="add PhraseFilter class" />
+    <option name="LAST_COMMIT_MESSAGE" value="add PhraseFilter class" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="458" y="27" key="CommitChangelistDialog2" timestamp="1576698316071">
+      <screen x="0" y="23" width="1440" height="843" />
+    </state>
+    <state x="458" y="27" key="CommitChangelistDialog2/0.23.1440.843@0.23.1440.843" timestamp="1576698316071" />
+    <state x="288" y="76" key="DiffContextDialog" timestamp="1576697594665">
+      <screen x="0" y="23" width="1440" height="843" />
+    </state>
+    <state x="288" y="76" key="DiffContextDialog/0.23.1440.843@0.23.1440.843" timestamp="1576697594665" />
+    <state x="621" y="325" width="642" height="199" key="Github.ShareDialog" timestamp="1576697519823">
+      <screen x="0" y="23" width="1440" height="843" />
+    </state>
+    <state x="621" y="325" width="642" height="199" key="Github.ShareDialog/0.23.1440.843@0.23.1440.843" timestamp="1576697519823" />
+    <state x="748" y="138" key="Github.UntrackedFilesDialog" timestamp="1576697535457">
+      <screen x="0" y="23" width="1440" height="843" />
+    </state>
+    <state x="748" y="138" key="Github.UntrackedFilesDialog/0.23.1440.843@0.23.1440.843" timestamp="1576697535457" />
+    <state width="702" height="206" key="GridCell.Tab.0.bottom" timestamp="1576697014060">
+      <screen x="0" y="23" width="1440" height="843" />
+    </state>
+    <state width="702" height="206" key="GridCell.Tab.0.bottom/0.23.1440.843@0.23.1440.843" timestamp="1576697014060" />
+    <state width="702" height="206" key="GridCell.Tab.0.center" timestamp="1576697014059">
+      <screen x="0" y="23" width="1440" height="843" />
+    </state>
+    <state width="702" height="206" key="GridCell.Tab.0.center/0.23.1440.843@0.23.1440.843" timestamp="1576697014059" />
+    <state width="702" height="206" key="GridCell.Tab.0.left" timestamp="1576697014058">
+      <screen x="0" y="23" width="1440" height="843" />
+    </state>
+    <state width="702" height="206" key="GridCell.Tab.0.left/0.23.1440.843@0.23.1440.843" timestamp="1576697014058" />
+    <state width="702" height="206" key="GridCell.Tab.0.right" timestamp="1576697014059">
+      <screen x="0" y="23" width="1440" height="843" />
+    </state>
+    <state width="702" height="206" key="GridCell.Tab.0.right/0.23.1440.843@0.23.1440.843" timestamp="1576697014059" />
     <state x="401" y="23" key="SettingsEditor" timestamp="1576693551369">
       <screen x="0" y="23" width="1440" height="843" />
     </state>
